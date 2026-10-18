@@ -550,6 +550,12 @@ header nav a.active {
   opacity: 0.9;
 }
 
+#contact .des {
+  max-width: min(900px, 92vw);
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* Direct Email Contact CTA Card */
 .contact-cta-card {
   width: min(850px, 92vw);
@@ -618,6 +624,13 @@ header nav a.active {
   margin: 0;
 }
 
+.cta-button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
 .direct-email-button {
   display: inline-flex;
   align-items: center;
@@ -652,6 +665,40 @@ header nav a.active {
 
 .direct-email-button:hover .btn-arrow {
   transform: translate(2px, -2px);
+}
+
+.cta-secondary-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85em;
+}
+
+.cta-secondary-actions a,
+.cta-secondary-actions .copy-email-link {
+  color: var(--text-color);
+  opacity: 0.75;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.cta-secondary-actions a:hover,
+.cta-secondary-actions .copy-email-link:hover {
+  opacity: 1;
+  color: var(--accent-color);
+}
+
+.cta-secondary-actions .sep {
+  opacity: 0.35;
 }
 
 #contact table {
@@ -981,6 +1028,14 @@ header nav a.active {
   .direct-email-button {
     width: 100%;
     justify-content: center;
+  }
+  .cta-button-group {
+    align-items: center;
+    width: 100%;
+  }
+  .cta-secondary-actions {
+    justify-content: center;
+    flex-wrap: wrap;
   }
   #contact .sign {
     font-size: 4.5em;
