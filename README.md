@@ -30,7 +30,8 @@ Founder & Lead Architect: **Avi Bhosale**.
 
 - **Website:** [brocodes.online](https://brocodes.online)
 - **GitHub:** [github.com/brocodesorg](https://github.com/brocodesorg)
-- **Organization:** BroCodes
+- **Founder:** Avi Bhosale ([@AviBhosale01](https://github.com/AviBhosale01))
+- **Status:** Production Ready (v1.0.1)
 
 ---
 
