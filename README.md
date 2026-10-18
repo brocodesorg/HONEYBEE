@@ -2,7 +2,7 @@
 
 > An executive 3D web experience engineered with Three.js, GSAP ScrollTrigger, and bespoke shader tinting.
 
-Designed and developed by **[BroCodes](https://brocodes.online)**.  
+Designed and developed by **[BroCodes](https://brocodes.space)**.  
 Founder & Lead Architect: **Avi Bhosale**.
 
 ---
@@ -28,7 +28,8 @@ Founder & Lead Architect: **Avi Bhosale**.
 
 ## 🌐 Connect & Showcase
 
-- **Website:** [brocodes.online](https://brocodes.online)
+- **Website:** [brocodes.space](https://brocodes.space)
+- **Direct Email:** [brocodesorg@gmail.com](mailto:brocodesorg@gmail.com)
 - **GitHub:** [github.com/brocodesorg](https://github.com/brocodesorg)
 - **Founder:** Avi Bhosale ([@AviBhosale01](https://github.com/AviBhosale01))
 - **Status:** Production Ready (v1.0.1)
