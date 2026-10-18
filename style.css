@@ -743,6 +743,7 @@ header nav a.active {
 }
 .custom-color-row input[type="color"] {
   -webkit-appearance: none;
+  appearance: none;
   border: none;
   width: 30px;
   height: 30px;
